@@ -1,0 +1,150 @@
+header {
+  background: url("https://i.imgur.com/522gOlt.jpg");
+  text-align: center;
+  padding: 20px;
+  border: solid #FE0000 10px;
+  background-size: contain;
+  }
+a {
+  color: #00D09E;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 1px 1px black;
+  letter-spacing: 2px;
+}
+h1 {
+ font-family: 'Roboto', sans-serif;
+}
+#form-title {
+  text-shadow: -1px -1px black,
+        1px -1px black,
+        -1px 1px black,
+        1px 1px black;
+  color: white;
+  letter-spacing: 3px;
+  
+}
+.our-story {
+  background-color: gray;
+  border-radius: 25px;
+  margin:80px 60px 0 60px;
+  padding: 0 0 30px 0;
+  border: solid #FE0000 2px;
+  box-shadow: 20px 4px black;
+  display: flex;
+}
+#slogan {
+  color: white;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.your-question {
+  background-color: gray;
+  border-radius: 25px;
+  margin:0 60px 0 60px;
+  padding: 0 0 30px 0;
+  border: solid #FE0000 2px;
+  box-shadow: 20px 4px black;
+}
+.our-solution {
+  background-color: gray;
+  border-radius: 25px;
+  margin:0 60px 0 60px;
+  border: solid #FE0000 2px;
+  box-shadow: 20px 4px black;
+  height: 600px
+}
+body{ 
+background: #00D09E;
+}
+form {
+  text-align: center;
+}
+#header-img {
+  width: 300px;
+  border-radius: 100%;
+  margin: 10px;
+}
+h2 {
+  font-family: 'Roboto Condensed', ;
+}
+nav {
+  border: solid black 2px;
+  height: 40px;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  border-radius: 10px;
+  background-image: linear-gradient(grey, white);
+  border: 3px solid black;
+  font-family: 'Roboto', sans-serif;
+}
+button {
+  padding: 10px;
+  width: 200px;
+}
+#our-story {
+  margin: 0 0 0 30px;
+}
+.our_team {
+  width: 500px;
+  float: left;
+}
+#your-question {
+  text-align: right;
+}
+iframe {
+  text-align: left;
+  margin: 50px 0 0 200px;
+  border: 5px solid black;
+}
+li {
+  padding: 100px;
+  display: inline;
+  font-family: 'Roboto Condensed', ;
+}
+  #our-solution {
+  margin: 0 0 0 30px;
+}
+#form {
+  padding: 60px 0 0 0;
+  background: white;
+  margin: 30px 500px 0 500px;
+  border: solid black 2px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 20px 4px black;
+  background-image: linear-gradient(#FE0000, grey, #FE0000);
+}
+textarea {
+  margin: 30px 0 30px 0;
+}
+.nav-link {
+  margin: 50px;
+}
+input {
+  margin: 30px;
+  padding:10px;
+  width: 200px;
+}
+textarea {
+  width: 200px;
+  margin: 30px;
+  padding: 10px;
+}
+input[type=submit] {
+  width: 100px;
+  cursor: pointer;
+  color: white;
+  background: #00D09E;
+  border: solid 3px black;
+  box-shadow: 4px 1px black;
+  border-radius: 5px;
+  
+}
+@media (max-width: 500px;) {
+  body {
+    margin: 0 auto;
+  }
+}
